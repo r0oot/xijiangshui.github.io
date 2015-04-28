@@ -25,6 +25,12 @@
     </header>
 
     <div class="container">
+        　　<p>最新文章</p>
+        　　<ul>
+            　　　　{% for post in site.posts %}
+            　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            　　　　{% endfor %}
+            　　</ul>
       <section id="main_content">
         <h1>
 <a id="blog" class="anchor" href="#blog" aria-hidden="true"><span class="octicon octicon-link"></span></a>blog</h1>
