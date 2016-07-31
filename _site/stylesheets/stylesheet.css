@@ -115,7 +115,6 @@ a {
   color: #159957; }
 .main-content p {
   margin-bottom: 1em; }
-  /*
 .main-content code {
   padding: 2px 4px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -124,6 +123,7 @@ a {
   background-color: #f3f6fa;
   border-radius: 0.3rem; }
 .main-content pre {
+    /*
   padding: 0.8rem;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -132,7 +132,9 @@ a {
   word-wrap: normal;
   background-color: #f3f6fa;
   border: solid 1px #dce6f0;
-  border-radius: 0.3rem; }
+  border-radius: 0.3rem; 
+  */
+  }
   .main-content pre > code {
     padding: 0;
     margin: 0;
@@ -147,12 +149,14 @@ a {
   .main-content .highlight pre {
     margin-bottom: 0;
     word-break: normal; }
+    /*
 .main-content .highlight pre, .main-content pre {
   padding: 0.8rem;
   overflow: auto;
   font-size: 0.9rem;
   line-height: 1.45;
   border-radius: 0.3rem; }
+  */
 .main-content pre code, .main-content pre tt {
   display: inline;
   max-width: initial;
@@ -165,7 +169,6 @@ a {
   border: 0; }
   .main-content pre code:before, .main-content pre code:after, .main-content pre tt:before, .main-content pre tt:after {
     content: normal; }
-    */
 .main-content ul, .main-content ol {
   margin-top: 0; }
 .main-content blockquote {
